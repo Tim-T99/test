@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 809 791.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        opacity: .25;
+      }
+
+      .cls-3 {
+        font-family: Nunito-Bold, Nunito;
+        font-size: 700px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        font-family: Nunito-Medium, Nunito;
+        font-size: 350px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <line class="cls-1" x1="2.5" y1="606.62" x2="805.5" y2="606.62"/>
+    <line class="cls-1" x1="3" y1="343.62" x2="806" y2="343.62"/>
+    <line class="cls-1" x1="3.5" y1="80.62" x2="806.5" y2="80.62"/>
+  </g>
+  <g>
+    <text class="cls-4" transform="translate(94.78 601.17)"><tspan x="0" y="0">c</tspan></text>
+    <text class="cls-3" transform="translate(331.23 596.75)"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>

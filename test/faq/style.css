@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+hr {
+  width: 90%;
+  color: white;
+}
+
+.heading {
+  max-width: 600px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: darkslategray;
+  border-radius: 5px;
+  color: white;
+}
+
+.faq {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq-question {
+  display: block;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.faq-answer p {
+  margin: 15px 0;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+
+/* styling when answer is revealed */
+input:checked + .faq-question + .faq-answer {
+  max-height: 100px;
+  padding: 15px;
+}
+
+input:checked + .faq-question {
+  background-color: darkslategray;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
